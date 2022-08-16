@@ -54,7 +54,14 @@
   /* Articles */
   .page-container {
     grid-template-columns: 1fr;
-    grid-column: 1;
     text-align: center;
+  }
+
+  .page-container > *:first-child {
+    grid-row: 1;
+  }
+
+  .l-heading {
+    font-size: 1.8rem;
   }
 }
