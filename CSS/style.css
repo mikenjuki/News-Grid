@@ -108,6 +108,28 @@ h6 {
 .category-ent {
   background: var(--ent-color);
 }
+
+.btn {
+  display: inline-block;
+  color: var(--neutral-100);
+  background: var(--neutral-900);
+  border: none;
+  padding: 0.5rem 1.5rem;
+  margin-top: 1rem;
+}
+
+.btn-light {
+  background: var(--accent-200);
+}
+
+.btn-primary {
+  background: var(--accent-500);
+}
+
+.btn-secondary {
+  background: var(--primary-500);
+}
+
 /* Navigation */
 #main-nav {
   background: var(--accent-100);
