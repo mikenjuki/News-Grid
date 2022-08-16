@@ -336,6 +336,19 @@ h6 {
   grid-gap: 1rem;
 }
 
+#home-articles .articles-container h3 {
+  border-bottom: 1px solid transparent;
+}
+
+#home-articles .articles-container h3:hover {
+  border-bottom: 1px solid var(--neutral-400);
+}
+
+#home-articles .articles-container .card:hover {
+  transform: scale(0.95);
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.4);
+}
+
 #home-articles .articles-container > *:first-child {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
