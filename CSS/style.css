@@ -55,6 +55,10 @@ body {
   background: var(--neutral-200);
 }
 
+p {
+  margin: 0.5rem 0;
+}
+
 a {
   color: var(--neutral-900);
   text-decoration: none;
@@ -197,6 +201,16 @@ h6 {
 
 .p-3 {
   padding: 3rem;
+}
+
+.list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px dotted var(--neutral-800);
+  width: 90%;
+}
+
+.list li a:hover {
+  color: var(--accent-500) !important;
 }
 
 /* Navigation */
@@ -349,7 +363,6 @@ h6 {
   width: 90%;
   padding: 0.5rem;
   margin-bottom: 0.5rem;
-  margin-top: 0.3rem;
 }
 
 #main-footer .footer-container input[type="submit"] {
