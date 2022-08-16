@@ -86,3 +86,67 @@ h6 {
   overflow: hidden;
   padding: 0 2rem;
 }
+
+/* Navigation */
+#main-nav {
+  background: var(--accent-100);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+#main-nav .logo {
+  width: 160px;
+}
+
+#main-nav .container {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  padding: 1rem;
+}
+
+#main-nav .container .top-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#main-nav .container .top-nav .social a {
+  margin-right: 0.5rem;
+  color: var(--neutral-700);
+  /* padding: 15px 3px 10px 3px; */
+}
+
+#main-nav .container .top-nav .social a:hover {
+  /* background: var(--accent-300);
+  color: var(--neutral-800); */
+  border-bottom: 0.5px solid var(--accent-500);
+}
+
+#main-nav .container .bottom-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#main-nav ul {
+  display: flex;
+}
+
+#main-nav ul li a {
+  padding: 0.8rem;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#main-nav ul li a:hover {
+  background: var(--accent-300);
+  color: var(--neutral-800);
+}
+
+#main-nav .container .bottom-nav .current {
+  background: var(--accent-600);
+  color: var(--neutral-100);
+}
