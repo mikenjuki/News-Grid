@@ -1,0 +1,40 @@
+:root {
+  /* Primary: Bright Navy Blue */
+  --primary-100: #f2f5ff;
+  --primary-200: #bccffe;
+  --primary-300: #83adfa;
+  --primary-400: #4b8eef;
+  --primary-500: #1671d9;
+  --primary-600: #075eac;
+  --primary-700: #024b80;
+  --primary-800: #003553;
+  --primary-900: #001b26;
+
+  /* Accent: Upsed Tomato */
+  --accent-100: #fff6f2;
+  --accent-200: #fecdc0;
+  --accent-300: #f69b8b;
+  --accent-400: #e06053;
+  --accent-500: #b52621;
+  --accent-600: #910b0b;
+  --accent-700: #6e0202;
+  --accent-800: #4a0000;
+  --accent-900: #260000;
+
+  /* Neutral */
+  --neutral-100: #fafafc;
+  --neutral-200: #e6e7eb;
+  --neutral-300: #d2d4d9;
+  --neutral-400: #bfc2c7;
+  --neutral-500: #acb0b5;
+  --neutral-600: #888d91;
+  --neutral-700: #656a6e;
+  --neutral-800: #43484a;
+  --neutral-900: #222526;
+
+  --max-width: 1100px;
+
+  /* Category */
+  --sports-color: #d96c2b;
+  --tech-color: #0bd7d9;
+}
