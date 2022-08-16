@@ -134,6 +134,10 @@ h6 {
   background: var(--primary-500);
 }
 
+.btn-extra {
+  background: var(--primary-500);
+}
+
 .btn:hover {
   opacity: 0.8;
   scale: 0.95;
