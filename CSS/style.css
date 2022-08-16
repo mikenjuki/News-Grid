@@ -348,6 +348,18 @@ h6 {
   align-items: center;
 }
 
+#article .meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--neutral-100);
+  padding: 0.5rem;
+}
+
+#article .meta .category {
+  margin-top: 0.5rem;
+}
+
 /* Footer */
 #main-footer {
   background: var(--neutral-900);
