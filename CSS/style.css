@@ -52,7 +52,7 @@
 body {
   font-family: "Neuton", serif;
   line-height: 1.5;
-  background: var(--neutral-100);
+  background: var(--neutral-200);
 }
 
 a {
@@ -139,6 +139,11 @@ h6 {
   display: block;
   text-align: center;
   width: 100%;
+}
+
+.card {
+  padding: 1rem;
+  background: var(--neutral-100);
 }
 
 /* Navigation */
