@@ -50,4 +50,11 @@
   #main-footer .footer-container > *:nth-child(4) {
     border-bottom: none;
   }
+
+  /* Articles */
+  .page-container {
+    grid-template-columns: 1fr;
+    grid-column: 1;
+    text-align: center;
+  }
 }
